@@ -1,0 +1,47 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2rem; */
+    padding: 2rem;
+    background-color: rgb(236, 236, 69);
+    border: 1px solid black;
+    width: 45rem;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ec9f12;
+}
+
+
+#header{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#submitB{
+    border: 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background: #ec9f12;
+    height: 3rem;
+    border-radius: 3rem;
+    width: 7rem;
+}
+
+#header2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.output{
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+}
